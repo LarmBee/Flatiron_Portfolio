@@ -13,22 +13,37 @@
     color: black;
 }
 
-#main{
-    background-color: blue;
-}
-
 #skills{
     background-color: yellow;
+    float: left;
+    width: 20%;
+    height: 120vh;
+}
+
+#main{
+    background-color: blue;
+    height: 25vh;
+    width: 80%;
+    float: right;
 }
 
 #projects{
     background-color: tomato;
+    height: 25vh;
+    width: 80%;
+    float: right;
 }
 
 #contact{
     background-color: teal;
+    height: 25vh;
+    width: 80%;
+    float: right;
 }
 
 #footer{
     background-color: brown;
+    height: 25vh;
+    width: 80%;
+    float: right;
 }
