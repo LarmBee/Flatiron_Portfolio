@@ -1,3 +1,8 @@
+
+* p{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
 #navbar{
     background-color: aqua;
     overflow: hidden;
@@ -19,31 +24,42 @@
     width: 20%;
     height: 120vh;
 }
+.download{
+    object-fit: cover;
+    margin-left: 3em;
+    width: 9em;
+}
 
 #main{
     background-color: blue;
-    height: 25vh;
     width: 80%;
     float: right;
+    text-align: center;
 }
 
 #projects{
     background-color: tomato;
-    height: 25vh;
     width: 80%;
     float: right;
 }
 
 #contact{
     background-color: teal;
-    height: 25vh;
     width: 80%;
     float: right;
 }
 
 #footer{
     background-color: brown;
-    height: 25vh;
     width: 80%;
     float: right;
+}
+.img{
+    align-items: center;
+    padding: 20px;
+    float: right;
+}
+#img1{
+    height: 9vh;
+    width: 4vw;
 }
