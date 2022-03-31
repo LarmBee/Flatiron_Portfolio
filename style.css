@@ -4,7 +4,7 @@
 
 }
 #navbar{
-    background-color: aqua;
+    background-color: none;
     overflow: hidden;
     text-align: center;
     
@@ -19,10 +19,16 @@
 }
 
 #skills{
-    background-color: yellow;
+    background-color: white;
     float: left;
     width: 20%;
     height: 120vh;
+}
+#potrait{
+    object-fit: cover;
+    width: 18vw;
+    height: 40vh;
+    border-radius: 100%;
 }
 .download{
     object-fit: cover;
@@ -31,29 +37,85 @@
 }
 
 #main{
-    background-color: blue;
+    background-color: #13262F;
     width: 80%;
     float: right;
     text-align: center;
+    color: white;
+}
+#skil{
+    text-align: center;
+}
+.progress{
+    width:40em;
+    margin: 2em;
+    margin-left:25em;
+
 }
 
 #projects{
-    background-color: tomato;
+    background-color: #B0A084;
     width: 80%;
     float: right;
     text-align: center;
 }
-
+#projectimg{
+    object-fit: cover;
+    width: fit-content;
+    height: 80vh;
+    width: 30vh;
+    filter: grayscale(100%);
+}
+#projectimg:hover{
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+#pro1{
+    position: absolute;
+    top: 70em;
+    left: 20em;
+    color: white;
+    z-index: 1;
+}
+#pro2{
+    position: absolute;
+    top: 70em;
+    left: 33em;
+    color: white;
+    z-index: 1;
+}
+#pro3{
+    position: absolute;
+    top: 70em;
+    left: 45em;
+    color: white;
+    z-index: 1;
+}
+#pro4{
+    position: absolute;
+    top: 70em;
+    left: 58em;
+    color: white;
+    z-index: 1;
+}
+#pro5{
+    position: absolute;
+    top: 70em;
+    left: 71em;
+    color: white;
+    z-index: 1;
+}
 #contact{
-    background-color: teal;
+    background-color: #E9E6FF;
     width: 80%;
     float: right;
 }
 
 #footer{
-    background-color: brown;
+    background-color: #13262F;
     width: 80%;
     float: right;
+    padding-right: 18em;
 }
 .img{
     align-items: center;
@@ -61,6 +123,6 @@
     float: right;
 }
 #img1{
-    height: 9vh;
-    width: 4vw;
+    height: 14vh;
+    width: 7vw;
 }
