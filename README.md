@@ -20,9 +20,10 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 <b>Built with</b><br>
 -HTML 5<br>
 -CSS 3
-
+-Bootstrap
+-JavaScript
 ## Link to Live Site
-https://larmbee.github.io/my_portfolio/
+https://larmbee.github.io/Flatiron_Portfolio/
 
 ## License
 MIT © [Brandon Kanute]()
