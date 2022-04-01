@@ -33,7 +33,7 @@
         </ol>
         <hr>
         <h1> <u> Download my CV</u></h1>
-        <a href=""><img src="./images/downloading.png" class="download"></a>    
+        <a href="" onclick="downloadFile(this)"><img src="./images/downloading.png" class="download"></a>    
     </article>
     
     <main id ="main">
@@ -122,7 +122,7 @@
         <div class="invalid-feedback">Check this checkbox to continue.</div>
       </label>
     </div>
-    <button type="submit" class="btn btn-primary" onclick="validateForm()">Submit</button>
+    <button class="btn btn-primary" id="submit" onclick="validateForm()">Submit</button>
     <br>
     <br>
   </form>
